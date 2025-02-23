@@ -1,0 +1,3 @@
+# Incorrect State Update in useEffect Hook
+
+This repository demonstrates a common error in React's `useEffect` hook where the state update function isn't used correctly, leading to unexpected behavior. The example shows an attempt to increment a state variable `count` once using `useEffect` and an empty dependency array, which should run only once after initial render. However, due to an incorrect way to update the `count` state variable, the code does not work as expected. The bug is then fixed in the `bugSolution.js` file.
